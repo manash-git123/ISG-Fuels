@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>ISI Fules</title>
+  <title>ISG Fules</title>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/darkly/bootstrap.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -54,13 +56,10 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container" data-aos="fade-in">
-      <h1>Welcome to ISI Fuels</h1>
+      <h1>Welcome to ISG Fuels</h1> 
       <h2><B>Order. Schedule. Receive:</B><br>
         The simplest way to fulfill your diesel requirements.</h2>
-      <div class="d-flex align-items-center">
-        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#clients" class="btn-get-started scrollto">Know More</a>
-      </div>
+      
     </div>
   </section><!-- End Hero -->
 
@@ -73,7 +72,7 @@
         <div class="row">
           <div class="col-xl-4 col-lg-5" data-aos="fade-up">
             <div class="content">
-              <h3>Why Choose ISI Fules for your Fuel Reqirements?</h3>
+              <h3>Why Choose ISG Fules for your Fuel Reqirements?</h3>
               <p>
                 Fuelled by Diesel (at least for the next few decades), India is on the upward graph of development.
               </p>
@@ -113,25 +112,42 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
-    
+ 
+
+
     <section id="clients" class="clients">
       <div class="container text-center" data-aos="fade-up">
-        <h2><b>Ideal for: Construction Industry | Generators*</b></h2>
-        <p style="font-size: x-small;">
-          *[Institutes/Hospitals/Commercial Spaces/Residential Societies etc.]
-        </p>
+        <h1><b>Ideal for: Construction Industry | Generators  </b></h1>
+        <p class="mt-4" style="line-height: 2em;">
         If you belong to an industry that requires diesel often, you would be well aware of the challenges that come with it. From unsafe transport of the fuel, to having a storage facility on site, the entire process is a huge ordeal.
 But…What if we told you there is one simple solution to all of these challenges, sitting in the comfort of your home or offices?
+</p>
       </div>
     </section><!-- End Clients Section -->
+
+
+
+  </section><!-- End Why Us Section -->
+    
+
+  <section id="process">
+    <div class="row text-center">
+      <div class="col-12 mb-5" data-aos="fade-down"><h1>Get Started</h1></div>
+      <div class="col-md-3 col-sm-10" data-aos="fade-up"><img src="./assets/img/mobileApp.jpg" width="80%;"/></div>
+      <div class="col-md-3 col-sm-10" data-aos="fade-up"><img src="./assets/img/bookfuel.jpg" width="80%;"/></div>
+      <div class="col-md-3 col-sm-10" data-aos="fade-up"><img src="./assets/img/time.jpg" width="80%;"/></div>
+      <div class="col-md-3 col-sm-10" data-aos="fade-up"><img src="./assets/img/delivery.jpg" width="80%;"/></div>
+    </div>
+  </section>
+
+
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container">
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" class="d-none" data-aos="fade-right">
             <img src="./assets/img/mobileApp.jpg" width="150%">
           </div>
 
@@ -175,25 +191,92 @@ But…What if we told you there is one simple solution to all of these challenge
 
       </div>
       <div class="container text-center" data-aos="fade-up">
-        It is as easy as that! Eliminate all the hassle with the tip of your fingers.
+       <h4><i> It is as easy as that! Eliminate all the hassle with the tip of your fingers.</i>
+       </i></h4>
 
       </div>
     </section><!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
+
+
+    <section>
+      <div class="row mx-auto my-auto text-center" data-aos="fade">
+        <div class="col-12"><h1 class="text-center mt-5" data-aos="fade-up" >WE PROVIDE TO</h1></div>
+          <div id="myCarousel" class="carousel slide w-100 mt-5" data-ride="carousel">
+              <div class="carousel-inner w-100" role="listbox">
+                  <div class="carousel-item active">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid mt-5" src="./assets/img/hospital.jpg" width="55%"
+                          onmouseover="this.src='./assets/img/hospitalY.jpg'" 
+                          onmouseout="this.src='./assets/img/hospital.jpg'"
+                          >
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid" src="./assets/img/school.jpg" width="57%;"
+                          onmouseover="this.src='./assets/img/schoolY.jpg'" 
+                          onmouseout="this.src='./assets/img/school.jpg'"
+                          >
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid" src="./assets/img/company.jpg" width="35%;"
+                          onmouseover="this.src='./assets/img/companyY.jpg'" 
+                          onmouseout="this.src='./assets/img/company.jpg'"
+                          >
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid" src="./assets/img/construction.jpg" width="50%;"
+                          onmouseover="this.src='./assets/img/constructionY.jpg'" 
+                          onmouseout="this.src='./assets/img/construction.jpg'"
+                          >
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid" src="./assets/img/mu.jpg" width="50%;"
+                          onmouseover="this.src='./assets/img/muY.jpg'" 
+                          onmouseout="this.src='./assets/img/mu.jpg'"
+                          >
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-lg-4 col-sm-4">
+                          <img class="img-fluid" src="./assets/img/container.jpg" width="38%;"
+                          onmouseover="this.src='./assets/img/containerY.jpg'" 
+                          onmouseout="this.src='./assets/img/container.jpg'"
+                          >
+                      </div>
+                  </div>
+              </div>
+         </div>
+      </div>
+  
+      <!--scripts loaded here-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="carousel.js"></script>
+  </section>
+
     
         <!-- ======= Why Us Section ======= -->
-        <section class="why-us MT-5">
+        <section class="why-us mt-5 section-bg">
           <div class="container text-center">
-            <h2 class="text-center" data-aos="fade-up" >FEATURES</h2>
+            <h1 class="text-center" data-aos="fade-up" >FEATURES</h1>
             <div class="row mt-5">
              
               <div class="container mt-5" data-aos="fade">
                 <table class="table table-striped table-bordered text-center">
                     <thead data-aos="fade">
                       <tr data-aos="fade">
-                        <th scope="col" style="background-color: #ff5821;color: #FFF;" data-aos="fade-right"><h2>Existing Problems</h2></th>
-                        <th scope="col" style="background-color: #ff5821;color: #FFF;" data-aos="fade-left"><h2>Our Solution</h2></th>
+                        <th scope="col" style="background-color: #f09939;color: #FFF;" data-aos="fade-right"><h2>Existing Problems</h2></th>
+                        <th scope="col" style="background-color: #f09939;color: #FFF;" data-aos="fade-left"><h2>Our Solution</h2></th>
                       </tr>
                     </thead>
                     <tbody data-aos="fade">
@@ -240,18 +323,16 @@ But…What if we told you there is one simple solution to all of these challenge
           <div class="col-lg-4 col-md-6 footer-contact text-center">
             <h3>ISG Fuels</h3>
 
-            <div class="row">
+            <div class="row text-center">
 
-              <div class="col-lg-6">
-                addressline-1<br>
-                addressline-2<br>
-                addressline-3
+              <div class="col-lg-12">
+                Office No 602, 6th Floor, Sacred World, South Wing, Opp Sacred Heart Town Wanowrie Jagtap Chowk, Above McDonalds. Pune, Maharashtra 411040
                 <br><br>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-12 align-items-center">
                 <p>
-                  <strong>Phone:</strong> <--phone no--><br>
-                  <strong>Email:</strong>  <--email--><br>
+                  <strong>Phone : </strong> 077190 37719<br>
+                  <strong>Email : </strong>contact@isgfuels.com<br>
                   <strong>Fax:</strong>  <--fax--><br>
                   <strong>CIN Number:</strong>  <--cin--><br>
                 </p>
@@ -260,20 +341,22 @@ But…What if we told you there is one simple solution to all of these challenge
             
           </div>
 
-          <div class="col-lg-8 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4 class="text-center">Useful Links</h4>
-            <ul class="text-center" style="word-spacing: normal;">
-                <i class="bx bx-chevron-right"></i> <a href="index.html">Home</a>
-                <i class="bx bx-chevron-right"></i> <a href="aboutus.html">About</a>
-                <i class="bx bx-chevron-right"></i> <a href="services.html">Services</a>
-                <i class="bx bx-chevron-right"></i> <a href="whyus.html">Why Us?</a>
-                <i class="bx bx-chevron-right"></i> <a href="faqs.html">FAQs</a>
-                <i class="bx bx-chevron-right"></i> <a href="">Gallery</a>
-                <i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a>
+            <ul class="text-center" style="word-spacing: normal;line-height:2em;">
+              <i class="bx bx-chevron-right"> <a href="index.html">Home</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="aboutus.html">About</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="services.html">Services</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="whyus.html">Why Us?</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="faqs.html">FAQs</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="">Gallery</a></i><br>
+              <i class="bx bx-chevron-right"> <a href="contact.html">Contact Us</a></i><br>
               
             </ul>
           </div>
-
+          <div class="col-lg-6 col-md-12 text-center">
+            <img src="./assets/img/bottomLogo.png" width="80%">
+          </div>
 
         </div>
       </div>
